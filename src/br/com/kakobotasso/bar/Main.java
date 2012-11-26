@@ -32,6 +32,11 @@ public class Main extends Activity {
     	this.btAdmHome = (Button) findViewById(R.id.btAdmHome);
     	this.btCarrinhoHome = (Button) findViewById(R.id.btCarrinhoHome);
     	this.btFecharPedidoHome = (Button) findViewById(R.id.btFecharPedidoHome);
+    	
+    	// INTERACAO DE TELAS
+    	this.itAdm = new Intent(this, Adm.class);
+    	this.itCarrinho = new Intent(this, Carrinho.class);
+    	this.itFecharPedido = new Intent(this, FecharPedido.class);
     }
     
 }
