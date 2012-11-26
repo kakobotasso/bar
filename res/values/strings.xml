@@ -4,5 +4,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Bar</string>
+    <string name="btAdmHome">Adm</string>
+    <string name="btCarrinhoHome">Carrinho</string>
+    <string name="btFecharPedidoHome">Fechar Pedido</string>
 
 </resources>

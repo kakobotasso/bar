@@ -3,4 +3,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btAdmHome"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btAdmHome" />
+
+        <Button
+            android:id="@+id/btCarrinhoHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btCarrinhoHome" />
+
+        <Button
+            android:id="@+id/btFecharPedidoHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btFecharPedidoHome" />
+
+    </LinearLayout>
+
 </RelativeLayout>
