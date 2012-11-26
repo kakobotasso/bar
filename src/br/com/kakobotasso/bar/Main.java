@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Main extends Activity {
@@ -37,6 +39,34 @@ public class Main extends Activity {
     	this.itAdm = new Intent(this, Adm.class);
     	this.itCarrinho = new Intent(this, Carrinho.class);
     	this.itFecharPedido = new Intent(this, FecharPedido.class);
+    }
+    
+    // PASSAR TELAS
+    public void passarTelaAdm(){
+    	this.btAdmHome.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				startActivity(itAdm);
+			}
+		});
+    }
+    
+    public void passarTelaCarrinho(){
+    	this.btCarrinhoHome.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				startActivity(itCarrinho);
+			}
+		});
+    }
+
+    public void passarFecharPedido(){
+    	this.btFecharPedidoHome.setOnClickListener(new OnClickListener() {
+			
+			public void onClick(View v) {
+				startActivity(itFecharPedido);
+			}
+		});
     }
     
 }
