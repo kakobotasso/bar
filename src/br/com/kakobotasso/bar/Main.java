@@ -20,6 +20,10 @@ public class Main extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        associarElementos();
+        passarTelaAdm();
+        passarTelaCarrinho();
+        passarFecharPedido();
     }
 
     @Override
@@ -41,7 +45,7 @@ public class Main extends Activity {
     	this.itFecharPedido = new Intent(this, FecharPedido.class);
     }
     
-    // PASSAR TELAS
+    // PASSAR TELAS ADM
     public void passarTelaAdm(){
     	this.btAdmHome.setOnClickListener(new OnClickListener() {
 			
@@ -51,6 +55,7 @@ public class Main extends Activity {
 		});
     }
     
+ // PASSAR TELAS CARRINHO
     public void passarTelaCarrinho(){
     	this.btCarrinhoHome.setOnClickListener(new OnClickListener() {
 			
@@ -60,6 +65,7 @@ public class Main extends Activity {
 		});
     }
 
+ // PASSAR TELAS FECHAR PEDIDO
     public void passarFecharPedido(){
     	this.btFecharPedidoHome.setOnClickListener(new OnClickListener() {
 			
