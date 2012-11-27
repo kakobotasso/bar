@@ -7,5 +7,7 @@
     <string name="btAdmHome">Adm</string>
     <string name="btCarrinhoHome">Carrinho</string>
     <string name="btFecharPedidoHome">Fechar Pedido</string>
+    <string name="btCadastroPais">Cadastrar Pais</string>
+    <string name="btVoltarCadastroCerveja">Voltar</string>
 
 </resources>
